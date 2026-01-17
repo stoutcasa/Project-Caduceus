@@ -1,0 +1,8 @@
+## PATIENT_RAW
+raw_id (PK),full_name,dob_string,diagnosis_string,last_visit_date
+
+## PERSON
+PersonID (PK),FirstName,LastName,DOB
+
+## CLINICAL_EVENT
+EventID (PK),PersonID (FK),DiagnosisCode,EventDate

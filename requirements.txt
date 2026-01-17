@@ -1,0 +1,4 @@
+pandas
+Faker
+mysql-connector-python
+sqlalchemy
